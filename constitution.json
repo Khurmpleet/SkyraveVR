@@ -1,0 +1,14 @@
+{
+    "name": "SkyraveVR",
+    "description": "Constitution for SkyraveVR governing its operations and treasury management.",
+    "quorum_rules": {
+        "min_contributors_approval": 3,
+        "min_treasury_disbursement_approval": 2,
+        "min_vulnerability_report_approval": 1
+    },
+    "additional_rules": {
+        "voting_period_days": 7,
+        "treasury_access": "multi_sig",
+        "vulnerability_reporting": true
+    }
+}
